@@ -31,8 +31,8 @@ minikube start
 Apply the NGINX deployment and service configuration:
 
 ```bash
-kubectl apply -f nginx-deployment.yaml
-kubectl apply -f nginx-service.yaml
+kubectl apply -f nginx-deployment.yml
+kubectl apply -f nginx-service.yml
 ```
 
 4. **Access the NGINX Web Server**
@@ -62,7 +62,7 @@ minikube stop
 
 ## Additional Information
 
-Customize the NGINX deployment by modifying `nginx-deployment.yaml`.
-The NGINX service is exposed on port 80 by default. You can change the service configuration in `nginx-service.yaml`.
+Customize the NGINX deployment by modifying `nginx-deployment.yml`.
+The NGINX service is exposed on port 80 by default. You can change the service configuration in `nginx-service.yml`.
 
 Feel free to modify and extend this repository to suit your needs. Happy Kubernetes-ing!
